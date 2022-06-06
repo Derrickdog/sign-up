@@ -1,3 +1,7 @@
+:root{
+    font-size: 16px;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -8,4 +12,29 @@
 .page{
     width: 100vw;
     height: 100vh;
+}
+
+.info{
+    margin: 125px 50px;
+}
+
+.greeting{
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+.inputs{
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+}
+
+input{
+    margin-bottom: 15px;
+    width: 225px;
+    height: 30px;
+}
+label{
+    
 }
