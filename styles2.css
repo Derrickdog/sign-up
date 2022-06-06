@@ -13,10 +13,32 @@
 .page{
     width: 100vw;
     height: 100vh;
+    display: flex;
+}
+.picture{
+    background-image: url(cyber.jpeg);
+    background-size: 100vh;
+    background-position: center;
+    background-repeat: none;
+    width: 40vw;
+    color: white;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 200px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+}
+h1{
+    font-size: 5rem;
 }
 
 .info{
     margin: 125px 50px;
+    width: 60vw;
 }
 
 .greeting{
@@ -29,7 +51,6 @@
     display: flex;
     gap: 50px;
     padding: 20px;
-    /* box-shadow: 10px 10px 10px; */
 }
 
 input{
@@ -39,7 +60,7 @@ input{
     border-radius: 5px;
     border: 1px solid grey;
     padding: 8px;
-    
+    flex-wrap: row wrap;
 }
 
 input:focus{
