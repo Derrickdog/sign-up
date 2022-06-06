@@ -1,5 +1,6 @@
 :root{
     font-size: 16px;
+    --green: #596D48;
 }
 
 *{
@@ -28,13 +29,56 @@
     display: flex;
     gap: 50px;
     padding: 20px;
+    /* box-shadow: 10px 10px 10px; */
 }
 
 input{
     margin-bottom: 15px;
-    width: 225px;
+    width: 250px;
     height: 30px;
-}
-label{
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 8px;
     
+}
+
+input:focus{
+    box-shadow: 0 0 2px;
+}
+
+label{
+    font-size: 0.8rem;
+    color: #555;
+    font-weight: bold;
+}
+
+button{
+    margin: 30px 5px;
+    width: 180px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--green);
+    color: white;
+    font-weight: 600;
+}
+button:hover{
+    cursor: pointer;
+    background-color: green;
+    transition: background-color 1s;
+    box-shadow: 0 0 5px;
+}
+
+.login{
+    font-size: 0.9rem;
+}
+
+.login a{
+    color: var(--green);
+    text-decoration: none;
+    font-weight: bold;
+}
+.login a:hover{
+    text-decoration: underline;
+    color: green;
 }
